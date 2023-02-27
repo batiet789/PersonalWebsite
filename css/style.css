@@ -1,0 +1,72 @@
+.homePage { /* Requirement-2.C */
+    background: rgb(176,196,222);   /* Requirement-2.4 */
+    background: linear-gradient(180deg, rgba(176,196,222,1) 0%, rgba(176,196,222,0) 100%); /* Requirement-2.10 */    
+}
+
+.interestPage {
+    background-image: url(../images/rhsPanther.PNG);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#introduction { /* Requirement-2.D */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; /* Requirement-2.1 */
+}
+
+table {
+    border-width: 2px; /* Requirement-2.5 */
+    overflow: auto; /* Requirement-2.14 */
+}
+
+li {
+    padding-top: 5px; /* Requirement-2.6 */
+    list-style: circle; /* Requirement-2.8 */
+}
+
+a:link {
+    color: blue; /* Requirement-2.3 */
+}
+
+a:visited { /* Requirement-2.E */
+    color: navy; 
+}
+
+a:hover, nav:hover { /* Requirement-2.B */
+    color: dodgerblue;
+}
+
+summary { /* Requirement-2.H */
+    font-size: 15px; /* Requirement-2.9 */
+    font-weight: bold;
+    text-indent: 5px; /* Requirement-2.2 */
+}
+
+details { /* Requirement-2.G */
+    font-size: 15px;
+}
+
+.sectionTitle {
+    font-size: 24px; 
+    font-weight: bold;
+}
+
+figure { /* Requirement-2.A */
+    margin-top: auto;
+    padding-bottom: 10px;
+    display: block; /* Requirement-2.12 */
+    clear: none; /* Requirement-2.13 */
+    position: static; /* Requirement-2.15 */
+    visibility: visible; /* Requirement-2.16 */
+    z-index: auto; /* Requirement-2.17 */
+}
+
+figure figcaption { /* Requirement-2.F */
+    padding-top: 5px;
+    font-size: 15px;
+}
+
+.groupedImage {
+    min-width: 600px; /* Requirement-2.7 */
+    float: left; /* Requirement-2.11 */
+}
