@@ -1,6 +1,6 @@
 .homePage { /* Requirement-2.C */
     background: rgb(176,196,222);   /* Requirement-2.4 */
-    background: linear-gradient(180deg, rgba(176,196,222,1) 0%, rgba(176,196,222,0) 100%); /* Requirement-2.10 */    
+    background: linear-gradient(180deg, rgba(176,196,222,1) 0%, rgba(176,196,222,0) 100%);     
 }
 
 .interestPage {
@@ -37,7 +37,7 @@ a:hover, nav:hover { /* Requirement-2.B */
 }
 
 summary { /* Requirement-2.H */
-    font-size: 15px; /* Requirement-2.9 */
+    font-size: 15px; 
     font-weight: bold;
     text-indent: 5px; /* Requirement-2.2 */
 }
@@ -53,7 +53,7 @@ details { /* Requirement-2.G */
 
 figure { /* Requirement-2.A */
     margin-top: auto;
-    padding-bottom: 10px;
+    padding-bottom: 0.9%; /* Requirement-2.10 */
     display: block; /* Requirement-2.12 */
     clear: none; /* Requirement-2.13 */
     position: static; /* Requirement-2.15 */
@@ -62,7 +62,7 @@ figure { /* Requirement-2.A */
 }
 
 figure figcaption { /* Requirement-2.F */
-    padding-top: 5px;
+    padding-top: 0.2cm; /* Requirement-2.9 */
     font-size: 15px;
 }
 
